@@ -32,17 +32,21 @@ To run this analysis, you need the following files:
 ## Installation
 Clone the repository or download the necessary files.
 Install the required dependencies:
-Python 3.x (preferably 3.6+)
-Jupyter Notebook (for running the ipynb file)
-numpy for numerical operations (can be installed via pip install numpy)
+- Python 3.x (preferably 3.6+)
+- Jupyter Notebook (for running the ipynb file)
+- numpy for numerical operations (can be installed via pip install numpy)
 Files
-humanChickenProteins.py: Contains the gene data for humans and chickens, including gene names, chromosome information, and protein sequences.
-blosum62.py: The BLOSUM62 matrix used for sequence alignment scoring.
-SexChromosomeEvolution.ipynb: The Jupyter notebook where the sequence alignment and BRH analysis is performed.
-Usage
-Ensure that the required files are in the same directory as SexChromosomeEvolution.ipynb or modify the paths in the notebook accordingly.
-Open SexChromosomeEvolution.ipynb in a Jupyter Notebook environment.
-Follow the instructions in the notebook to perform the analysis and interpret the results.
+- humanChickenProteins.py: Contains the gene data for humans and chickens, including gene names, chromosome information, and protein sequences.
+- blosum62.py: The BLOSUM62 matrix used for sequence alignment scoring.
+- SexChromosomeEvolution.ipynb: The Jupyter notebook where the sequence alignment and BRH analysis is performed.
+
+## Usage
+
+- Ensure that the required files are in the same directory as SexChromosomeEvolution.ipynb or modify the paths in the notebook accordingly.
+
+- Open SexChromosomeEvolution.ipynb in a Jupyter Notebook environment.
+
+- Follow the instructions in the notebook to perform the analysis and interpret the results.
 
 ## Functions
 
