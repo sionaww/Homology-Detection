@@ -70,21 +70,13 @@ Sample Data
 ### Example Data Files
 The following sample gene lists are provided for testing the functions:
 
-sampleHumanGeneList: A small subset of human genes.
-sampleChickenGeneList: A small subset of chicken genes.
-geneD: A dictionary that contains gene information such as chromosome location and protein sequence.
-Sample Run
-def runBRHSample():
-    '''Print best reciprocal hits for sample data. First in human
-    chromosome order, then in chicken chromosome order.'''
-    allScoresD = allScores(sampleHumanGeneList, sampleChickenGeneList)
-    print('human --- chicken')
-    for geneName in sampleHumanGeneList:
-        printBRH(geneName, allScoresD)
-    print()
-    print('chicken --- human')
-    for geneName in sampleChickenGeneList:
-        printBRH(geneName, allScoresD)
+- sampleHumanGeneList: A small subset of human genes.
+- sampleChickenGeneList: A small subset of chicken genes.
+- geneD: A dictionary that contains gene information such as chromosome location and protein sequence.
+**Sample Run
+
+runBRHSample():
+   
 **Sample Output:**
 
 human --- chicken
@@ -98,14 +90,14 @@ chr2 43123243 c8 --- chr3 45016733 h17
 chr24 2542440 c17 --- chr11 133938820 h6
 chr24 5629899 c19 --- chr11 118415243 h4
 chr5 28862733 c22 --- chr14 72399156 h9
-How to Run the Analysis
 
-Open SexChromosomeEvolution.ipynb in Jupyter Notebook.
-Run all cells in sequence to compute the alignment scores and identify Best Reciprocal Hits (BRH).
-Review the results, which will include the alignment scores, chromosome mappings, and orthologs for each gene.
-Interpret the results to answer the central question: Are the human X chromosome and the chicken Z chromosome homologous?
-Example Analysis
-After running the analysis with the full data set, you will interpret the output to determine if the human X and chicken Z chromosomes share orthologous genes. If they do, the chromosomes may be homologous; if not, they likely evolved independently.
+## How to Run the Analysis
+
+- Open SexChromosomeEvolution.ipynb in Jupyter Notebook.
+- Run all cells in sequence to compute the alignment scores and identify Best Reciprocal Hits (BRH).
+- Review the results, which will include the alignment scores, chromosome mappings, and orthologs for each gene.
+- Interpret the results to answer the central question: Are the human X chromosome and the chicken Z chromosome homologous?
+
 
 ## Results Interpretation
 
