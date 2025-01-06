@@ -3,7 +3,7 @@ Sex Chromosome Evolution Analysis
 
 ## Overview
 
-This project aims to explore the homology between the human X chromosome and the chicken Z chromosome. We will compare protein sequences from both species to identify orthologous genes and investigate whether these chromosomes are homologous. The analysis utilizes sequence alignment scoring (with the BLOSUM62 substitution matrix) and the Best Reciprocal Hit (BRH) method for identifying orthologous gene pairs.
+This project aims to explore the homology between the human X chromosome and the chicken Z chromosome by comparing protein sequences from both species to identify orthologous genes assess whether these chromosomes are homologous. The analysis utilizes sequence alignment scoring (with the BLOSUM62 substitution matrix) and the Best Reciprocal Hit (BRH) method for identifying orthologous gene pairs.
 
 ## Objectives
 Land vertebrates exhibit a variety of sex-determination systems. One interesting question in evolutionary biology is whether the mammalian X chromosome and the avian (chicken) Z chromosome are homologous. To explore this, compare genes from humans and chickens using sequence alignment techniques and the Best Reciprocal Hit (BRH) method.
